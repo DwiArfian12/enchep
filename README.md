@@ -1,3 +1,3 @@
 # Enchep Cooking
 
-https://dwiarfian12.github.io/enchep/index.html
+https://dwiarfian12.github.io/enchep
