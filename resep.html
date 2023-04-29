@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enchep | Resep</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="logo">
+            <img src="img/logo-w-text.png" alt="">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a class="active" href="resep.html">Resep</a></li>
+                <li><a href="tentang.html">Tentang</a></li>
+            </ul>
+            <div class="auth">
+                <a href="masuk.html">Masuk</a>
+                <p> | </p>
+                <a href="daftar.html">Daftar</a>
+            </div>
+        </div>
+    </nav>
+    <header class="header-resep">
+        <h1>Menu Resep</h1>
+        <form action="">
+            <img src="img/search.png" alt="">
+            <input type="text">
+        </form>
+    </header>
+    <main class="main-resep"> 
+        <div class="cards">
+            <div class="card">
+                <img src="img/tongseng.jpg" alt="">
+                <div class="card-text">
+                <h2>Tongseng Kangkung</h2>
+                    <ul>
+                        <li>4 piring nasi putih</li>
+                        <li>5 butir bawang merah</li>
+                        <li>2 baskom gula</li>
+                    </ul>
+                    <a href="detail-resep.html">Selengkapnya ...</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/bebek.jpg" alt="">
+                <div class="card-text">
+                <h2>Bebek Goreng</h2>
+                    <ul>
+                        <li>4 piring nasi putih</li>
+                        <li>5 butir bawang merah</li>
+                        <li>2 baskom gula</li>
+                    </ul>
+                    <a href="detail-resep.html">Selengkapnya ...</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/ayam bakar.jpg" alt="">
+                <div class="card-text">
+                <h2>Ayam Bakar</h2>
+                    <ul>
+                        <li>4 piring nasi putih</li>
+                        <li>5 butir bawang merah</li>
+                        <li>2 baskom gula</li>
+                    </ul>
+                    <a href="detail-resep.html">Selengkapnya ...</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/nila.jpg" alt="">
+                <div class="card-text">
+                <h2>Ikan Nila Goreng</h2>
+                    <ul>
+                        <li>4 piring nasi putih</li>
+                        <li>5 butir bawang merah</li>
+                        <li>2 baskom gula</li>
+                    </ul>
+                    <a href="detail-resep.html">Selengkapnya ...</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="atas">
+            <div class="layanan">
+                <h2>Layanan</h2>
+                <ul>
+                    <li><a href="">Hubungi kami</a></li>
+                    <li><a href="">Bantuan</a></li>
+                    <li><a href="">Author</a></li>
+                    <li><a href="">Komunitas</a></li>
+                </ul>
+            </div>
+            <div class="jelajahi">
+                <h2>Jelajahi</h2>
+                <ul>
+                    <li><a href="">Beranda</a></li>
+                    <li><a href="">Resep</a></li>
+                    <li><a href="">Tentang</a></li>
+                    <li><a href="">Masuk</a></li>
+                    <li><a href="">Daftar</a></li>
+                </ul>
+            </div>
+            <div class="ikuti">
+                <h2>Ikuti kami</h2>
+                <div class="items sosmed">
+                    <div class="item">
+                        <img src="img/instagram.png" alt="">
+                        <div class="item-text">
+                            <h3>Instagram</h3>
+                            <p><a href="https://instagram.com/gloriamar2003" target="_blank">@gloriamar2003</a></p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/twitter.png" alt="">
+                        <div class="item-text">
+                            <h3>Twitter</h3>
+                            <p><a href="">@enchepcooking</a></p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/whatsapp.png" alt="">
+                        <div class="item-text">
+                            <h3>WhatsApp</h3>
+                            <p><a href="">+62 85161648371</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bawah">
+            <p class="copy">copyright &copy; - 2023 Enchep Cooking</p>
+            <p>Made by Team GraSa</p>
+        </div>
+    </footer>
+    <script>
+        const navbar = document.getElementById('navbar');
+        window.onscroll = () => {
+            if (window.scrollY > 100) {
+                navbar.classList.add('nav-active');
+            } else {
+                navbar.classList.remove('nav-active');
+            }
+        };
+    </script>
+</body>
+</html>

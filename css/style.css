@@ -1,0 +1,441 @@
+@font-face {
+    font-family: baguet;
+    src: url('../font/reg.otf');
+}
+
+@font-face {
+    font-family: baguet-thin;
+    src: url('../font/thin.otf');
+}
+
+@font-face {
+    font-family: baguet-bold;
+    src: url('../font/bold.otf');
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    transition: all 0.2s ease;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 10;
+}
+
+.nav-active {
+    background: rgba(15, 23, 43, 0.904);
+}
+
+.logo img {
+    height: 60px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.menu ul {
+    display: flex;
+    gap: 40px;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.menu li a:hover, .menu li a.active, .atas a:hover, .item .item-text a:hover  {
+    color: #fea116;
+}
+
+.auth a:hover {
+    color: #0F172B;
+}
+
+.auth {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    color: white;
+    height: 40px;
+    padding: 0 30px;
+    background: #fea116;
+    font-size: 15px;
+    align-items: center;
+    border-radius: 50px;
+    gap: 15px;
+}
+
+.auth a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+/* HEADER */
+header {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 90px;
+    padding-top: 30px;
+    color: #fff;
+}
+
+header h1 {
+    font-family: baguet-bold;
+    font-size: 3rem;
+}
+
+header img.head-img {
+    width: 400px;
+    animation: mover .9s infinite alternate;
+}
+
+@keyframes mover {
+    0% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+
+header .kiri {
+    width: 45%;
+}
+
+.kiri h2 {
+    font-size: 1.2rem;
+    margin-top: 50px;
+    line-height: 2rem;
+}
+
+/* HEADER resep */
+.header-resep {
+    background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url("../img/ayam bakar.jpg");
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-resep form {
+    background: transparent;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    outline: none;
+}
+
+.header-resep input {
+    float: right;
+    color: #fff;
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    width: 85%;
+}
+
+.header-resep form img {
+    width: 20px;
+    filter: invert(1);
+}
+
+/* HEADER tentang */
+.header-tentang {
+    background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url("../img/gambar3.jpg");
+    background-position: 0 -300px;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    color: #fff;
+}
+
+footer .atas {
+    background: darkblue;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+footer .atas .item {
+    display: flex;
+    font-family: Arial;
+    align-items: center;
+    gap: 10px;
+}
+
+.items.sosmed {
+    margin-top: -10px;
+}
+
+.item .item-text {
+    font-size: 14px;
+    line-height: 5px;
+}
+
+.item .item-text a {
+    font-family: baguet;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+footer .atas img {
+    height: 40px;
+    width: 40px;
+}
+
+footer .atas {
+    display: flex;
+    gap: 200px;
+    background: #0F172B;
+}
+
+.atas h2 {
+    font-family: baguet-bold;
+}
+
+.atas li {
+    list-style: circle;
+    margin-left: -22px;
+    margin-bottom: 7px;
+    font-family: Arial;
+    transition: all 0.3s ease;
+}
+
+.atas li a {
+    color:#fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.bawah {
+    background: #0F172B;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px -4px 8px -1px rgba(0,0,0,0.75);
+    box-sizing: border-box;
+    font-family: baguet;
+}
+
+.bawah .copy {
+    margin-bottom: -13px;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h1 {
+    font-family: baguet;
+    font-size: 2.8rem;
+    margin-bottom: 80px;
+    border-bottom: 4px solid black;
+}
+
+main .cards {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 30px;
+}
+
+.cards .card {
+    width: 18%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.7);
+    transition: all .5s ease;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 20px 20px 0 0;
+}
+
+.card h2 {
+    font-size: 1.2rem;
+    margin: 20px;
+    padding: 0 20px;
+    text-align: center;
+    font-family: baguet;
+    margin-bottom: 30px;
+}
+
+.card:hover {
+    scale: 1.05;
+    cursor: pointer;
+}
+
+/* MAIN resep */
+
+.main-resep .cards {
+    margin-top: 70px;
+    flex-wrap: wrap;
+}
+
+.main-resep .card {
+    width: 40%;
+    flex-direction: row;
+}
+
+.main-resep .card img {
+    border-radius: 20px 0 0 20px;
+    width: 50%;
+}
+
+.main-resep .card h2 {
+    text-align: left;
+    margin-bottom: -5px;
+    margin-left: 5px;
+}
+
+.main-resep .card a {
+    margin-left: 25px;
+    color: black;
+    transition: all 0.2s ease;
+    font-size: .95rem;
+}
+
+.main-resep .card a:hover {
+    color: #fea116;
+    text-decoration: none;
+}
+
+/* MAIN tentang */
+.main-tentang {
+    padding: 50px 0;
+    min-height: 50vh;
+}
+
+.main-tentang h1 {
+    border: none;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.card-tentang {
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.7);
+    border-radius: 20px;
+    padding: 5px 50px;
+    width: 80%;
+    padding-bottom: 50px;
+}
+
+.card-tentang-text {
+    display: flex;
+    padding: 0 20px;
+    margin-top: -60px;
+    gap: 50px;
+    text-align: justify;
+}
+
+.daft {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 20px;
+    align-items: center;
+}
+
+.daft-tomb {
+    text-decoration: none;
+    color: white;
+    background: #0F172B;
+    padding: 7px 25px;
+    border-radius: 13px;
+}
+
+.daft-tomb:hover {
+    filter: brightness(2);
+}
+
+/* MAIN resep */
+.card-resep {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.7);
+    border-radius: 20px;
+    margin: 150px 0;
+    padding-bottom: 30px;
+}
+
+.card-resep .img {
+    width: 100%;
+    background: url('../img/ayam bakar.jpg');
+    height: 400px;
+    background-size: cover;
+    background-position: 0 -150px;
+    border-radius: 20px 20px 0 0;
+    line-height: 350px;
+}
+
+.card-resep li {
+    margin-bottom: 10px;
+}
+
+.card-resep .img h1 {
+    border: none;
+    text-align: center;
+    color: #fff;
+    text-shadow: 5px 5px 10px #000000d4;
+}
+
+.card-resep .bahan, .card-resep .langkah {
+    align-self: flex-start;
+    padding: 0 50px;
+}
+
