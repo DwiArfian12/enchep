@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enchep | Edit Resep</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <nav id="navbar" class="nav-active">
+        <div class="logo">
+            <img src="img/logo-w-text.png" alt="">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="profil.html">Beranda</a></li>
+                <li><a class="active" href="resep-login.html">Resep</a></li>
+            </ul>
+            <div class="prof">
+                <a href="detail-profil.html"><img src="img/profil.jpg" alt=""></a>
+            </div>
+        </div>
+    </nav>
+    <main class="buat-main">
+        <form action="">
+            <h1>Edit Resep</h1>
+            <div class="fg">
+                <label for="">Judul Resep <span>*</span></label>
+                <input type="text">
+            </div>
+            <div class="fg">
+                <label for="">Foto Resep <span>*</span></label>
+                <input type="file">
+            </div>
+            <div class="fg">
+                <label for="">Bahan-bahan <span>*</span></label>
+                <textarea name="bahan"></textarea>
+            </div>
+            <div class="fg">
+                <label for="">Langkah-langkah <span>*</span></label>
+                <textarea name="langkah"></textarea>
+            </div>
+            <div class="log-tom">
+                <button type="button" class="submit" onclick="window.location.href='resep-login.html';">Edit Resep</button>
+                <button class="batal" type="button" onclick="window.location.href='resep-login.html';">Batal</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div class="atas">
+            <div class="layanan">
+                <h2>Layanan</h2>
+                <ul>
+                    <li><a href="">Hubungi kami</a></li>
+                    <li><a href="">Bantuan</a></li>
+                    <li><a href="">Author</a></li>
+                    <li><a href="">Komunitas</a></li>
+                </ul>
+            </div>
+            <div class="jelajahi">
+                <h2>Jelajahi</h2>
+                <ul>
+                    <li><a href="">Beranda</a></li>
+                    <li><a href="">Resep</a></li>
+                    <li><a href="">Tentang</a></li>
+                    <li><a href="">Masuk</a></li>
+                    <li><a href="">Daftar</a></li>
+                </ul>
+            </div>
+            <div class="ikuti">
+                <h2>Ikuti kami</h2>
+                <div class="items sosmed">
+                    <div class="item">
+                        <img src="img/instagram.png" alt="">
+                        <div class="item-text">
+                            <h3>Instagram</h3>
+                            <p><a href="https://instagram.com/gloriamar2003" target="_blank">@gloriamar2003</a></p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/twitter.png" alt="">
+                        <div class="item-text">
+                            <h3>Twitter</h3>
+                            <p><a href="">@enchepcooking</a></p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/whatsapp.png" alt="">
+                        <div class="item-text">
+                            <h3>WhatsApp</h3>
+                            <p><a href="">+62 85161648371</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bawah">
+            <p class="copy">copyright &copy; - 2023 Enchep Cooking</p>
+            <p>Made by Team GraSa</p>
+        </div>
+    </footer>
+</body>
+</html>

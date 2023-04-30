@@ -439,3 +439,459 @@ main .cards {
     padding: 0 50px;
 }
 
+/* DAFTAR */
+.daftar {
+    height: 100vh;
+    flex-direction: row;
+}
+
+.daftar .kiri {
+    width: 55%;
+    background: #0F172B;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.daftar form {
+    background: #fff;
+    width: 75%;
+    height: 85%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 60px;
+}
+
+.daftar h1 {
+    border: none;
+    font-family: baguet-thin;
+    margin-bottom: 30px;
+}
+
+.daftar .fg {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-family: Arial;
+    font-weight: bolder;
+    margin-bottom: 12px;
+    width: 60%;
+}
+
+.fg span {
+    color: red;
+}
+
+.fg input {
+    border: 1.2px solid #0F172B;
+    border-radius: 7px;
+    padding: 6px;
+}
+
+.daftar p {
+    align-self: flex-start;
+    margin-left: 20%;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+.daftar p a {
+    color: #0F172B;
+}
+
+.log-tom button {
+    width: 120px;
+    margin-right: 15px;
+    font-weight: bolder;
+    padding: 5px 0;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #0F172B;
+    color: #0F172B;
+    background: transparent;
+}
+
+.log-tom button.submit {
+    background: #0F172B;
+    color: white;
+}
+
+.log-tom button.submit:hover {
+    background: transparent;
+    color: #0F172B;
+    cursor: pointer;
+}
+
+.log-tom button.batal:hover {
+    background: #0F172B;
+    color: #fff;
+    cursor: pointer;
+}
+
+.daftar .kanan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+}
+
+.daftar .maskot {
+    width: 400px;
+    animation: mover .9s infinite alternate;
+}
+
+/* masuk */
+.masuk {
+    height: 100vh;
+    flex-direction: row;
+}
+
+.masuk .kiri {
+    width: 45%;
+    background: #fff;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.masuk form {
+    background: #fff;
+    width: 75%;
+    height: 65%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 60px;
+}
+
+.masuk h1 {
+    border: none;
+    font-family: baguet-thin;
+    margin-bottom: 30px;
+}
+
+.masuk .fg {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-family: Arial;
+    font-weight: bolder;
+    margin-bottom: 12px;
+    width: 60%;
+}
+
+.fg span {
+    color: red;
+}
+
+.fg input {
+    border: 1.2px solid #0F172B;
+    border-radius: 7px;
+    padding: 6px;
+}
+
+.masuk p {
+    align-self: flex-start;
+    margin-left: 20%;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+.masuk p a {
+    color: #0F172B;
+}
+
+.log-tom button {
+    width: 120px;
+    margin-right: 15px;
+    font-weight: bolder;
+    padding: 5px 0;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #0F172B;
+    color: #0F172B;
+    background: transparent;
+}
+
+.log-tom button.submit {
+    background: #0F172B;
+    color: white;
+}
+
+.log-tom button.submit:hover {
+    background: transparent;
+    color: #0F172B;
+    cursor: pointer;
+}
+
+.log-tom button.batal:hover {
+    background: #0F172B;
+    color: #fff;
+    cursor: pointer;
+}
+
+.masuk .kanan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    height: 100vh;
+    background: #0F172B;
+}
+
+.masuk .maskot {
+    width: 400px;
+    animation: mover .9s infinite alternate;
+}
+
+/* NAVBAR auth */
+nav .menu .prof img {
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 4px;
+}
+
+/* BERANDA PROFIL auth */
+.profil-main .top {
+    display: flex;
+    width: 60%;
+    border: 1.3px solid #0F172B;
+    border-radius: 30px;
+    padding: 20px 50px;
+    margin-top: 150px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: baguet;
+}
+
+.profil-main .top h2 {
+    margin-bottom: -10px;
+}
+
+.profil-main .top img.prof2 {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 1.3px solid #0F172B;
+    padding: 5px;
+}
+
+.profil-main .top img.lg {
+    width: 140px;
+    height: 50px;
+    border-radius: 50%;
+    align-self: flex-end;
+}
+
+.profil-main .top a {
+    text-decoration: none;
+    color: white;
+    background: #0F172B;
+    border-radius: 10px;
+    padding: 4px 50px;
+    font-family: Arial;
+    font-weight: bolder;
+}
+
+.profil-main .top a:hover {
+    border: 1.2px solid #0F172B;
+    background: transparent;
+    cursor: pointer;
+    color: #0F172B;
+}
+
+.profil-main .mid {
+    display: flex;
+    width: 60%;
+    border: 1.3px solid #0F172B;
+    border-radius: 20px;
+    padding: 0 50px;
+    margin-top: 30px;
+    justify-content: center;
+    gap: 50%;
+    align-items: center;
+}
+
+.profil-main .mid a {
+    font-family: baguet;
+    text-decoration: none;
+    color: black;
+}
+.profil-main .mid span {
+    background: #0F172B;
+    color: white;
+    border-radius: 5px;
+    padding: 0 15px;
+    font-family: baguet-thin;
+    margin-left: 5px;
+}
+
+.profil-main .mid a:hover {
+    text-decoration: underline;
+}
+
+
+.profil-main .bot {
+    width: 60%;
+    margin: 30px 0;
+    display: flex;
+    border: none;
+    border-top: 2px dashed #0F172B;
+    border-bottom: 2px dashed #0F172B;
+    padding: 15px 30px;
+}
+.profil-main .bot .kiri {
+    width: 75%;
+}
+
+.profil-main .bot .kiri img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.profil-main .bot .kanan img {
+    width: 200px;
+}
+
+.profil-main .bot .prfl {
+    display: flex;
+    align-items: center;
+}
+
+.profil-main .bot h2 {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: -15px;
+}
+
+.profil-main .bot h2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.profil-main .bot h2 a:hover {
+    text-decoration: underline;
+}
+
+.profil-main .bot p {
+    margin-left: 20px;
+}
+
+.buat-main .kiri {
+    width: 55%;
+    background: #0F172B;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buat-main form {
+    background: #0F172B;
+    color: white;
+    margin-top: 120px;
+    width: 70%;
+    height: 85%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 60px;
+    margin-bottom: 30px;
+}
+
+.buat-main h1 {
+    border: none;
+    font-family: baguet-thin;
+    margin-bottom: 30px;
+}
+
+.buat-main .fg {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-family: Arial;
+    font-weight: bolder;
+    margin-bottom: 12px;
+    width: 60%;
+}
+
+.fg span {
+    color: red;
+}
+
+.fg input {
+    border: 1.2px solid #fff;
+    color: white;
+    background: #0F172B;
+    border-radius: 7px;
+    padding: 6px;
+}
+
+.fg textarea {
+    border: 1.2px solid #fff;
+    color: white;
+    background: #0F172B;
+    border-radius: 7px;
+    padding: 6px;
+    height: 100px;
+}
+
+.log-tom button {
+    width: 120px;
+    margin-right: 15px;
+    font-weight: bolder;
+    padding: 5px 0;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+}
+
+.log-tom button.submit {
+    background: white;
+    color: #0F172B;
+}
+
+.log-tom button.submit:hover {
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+.log-tom button.batal:hover {
+    background: #fff;
+    color: #0F172B;
+    cursor: pointer;
+}
+
+.buat-main .log-tom {
+    margin-bottom: 30px;
+}
+
+.buat-main p {
+    align-self: flex-start;
+    margin-left: 20%;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+.buat-main p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.buat-main p a:hover {
+    text-decoration: underline;
+}
