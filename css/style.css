@@ -846,7 +846,7 @@ nav .menu .prof img {
     height: 100px;
 }
 
-.log-tom button {
+.buat-main .log-tom button {
     width: 120px;
     margin-right: 15px;
     font-weight: bolder;
@@ -858,18 +858,18 @@ nav .menu .prof img {
     background: transparent;
 }
 
-.log-tom button.submit {
+.buat-main .log-tom button.submit {
     background: white;
     color: #0F172B;
 }
 
-.log-tom button.submit:hover {
+.buat-main .log-tom button.submit:hover {
     background: transparent;
     color: #fff;
     cursor: pointer;
 }
 
-.log-tom button.batal:hover {
+.buat-main .log-tom button.batal:hover {
     background: #fff;
     color: #0F172B;
     cursor: pointer;
